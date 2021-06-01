@@ -1,0 +1,11 @@
+./aligned_img\jongwon\jongwon00000-1.png 231 182 726 768
+./aligned_img\jongwon\jongwon00000-2.png 10 260 535 864
+./aligned_img\jongwon\jongwon00000-3.png 435 199 929 799
+./aligned_img\jongwon\jongwon00000-4.png 444 706 603 895
+./aligned_img\jongwon\jongwon00000.png 352 450 669 825
+./aligned_img\jongwon\jongwon00001-1.png 256 277 726 828
+./aligned_img\jongwon\jongwon00001-2.png 86 356 562 885
+./aligned_img\jongwon\jongwon00001-3.png 436 292 917 874
+./aligned_img\jongwon\jongwon00001-4.png 450 731 604 918
+./aligned_img\jongwon\jongwon00001.png 353 516 662 898
+./aligned_img\jongwon\jongwon00002-1.png 219 198 717 792
