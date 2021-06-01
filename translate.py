@@ -3,7 +3,7 @@ import numpy as np
  
 i = 0
 while True:
-   img = cv2.imread('./data_img/1/jongwon0000{}.jpg'.format(i))
+   img = cv2.imread('./data_img/1/sangjun0000{}.jpg'.format(i))
    rows,cols = img.shape[0:2]  # 영상의 크기 
  
    m0 = cv2.getRotationMatrix2D((cols/2,rows/2),0,1.5) 
@@ -17,21 +17,13 @@ while True:
    img2 = cv2.warpAffine(img, m2,(cols, rows)) 
    img3 = cv2.warpAffine(img, m3,(cols, rows)) 
  
-   #cv2.imshow('origin',img)
-   #cv2.imshow('zoom',img0)
-   #cv2.imshow("25", img25)
-   #cv2.imshow("45", img45)
-   #cv2.waitKey(0)
-   #cv2.destroyAllWindows() 
- 
-   # outfilename = 'C:/Temp/test/data_img/SangJun00000-{}.jpg'.format(i)
-   outfilename = './processed__img/1/jongwon0000{}-1.jpg'.format(i)
+   outfilename = './processed__img/1/sangjun0000{}-1.jpg'.format(i)
    cv2.imwrite(outfilename, img0)
-   outfilename = './processed__img/1/jongwon0000{}-2.jpg'.format(i)
+   outfilename = './processed__img/1/sangjun0000{}-2.jpg'.format(i)
    cv2.imwrite(outfilename, img1)
-   outfilename = './processed__img/1/jongwon0000{}-3.jpg'.format(i)
+   outfilename = './processed__img/1/sangjun0000{}-3.jpg'.format(i)
    cv2.imwrite(outfilename, img2)
-   outfilename = './processed__img/1/jongwon0000{}-4.jpg'.format(i)
+   outfilename = './processed__img/1/sangjun0000{}-4.jpg'.format(i)
    cv2.imwrite(outfilename, img3)
    i=i+1
 
